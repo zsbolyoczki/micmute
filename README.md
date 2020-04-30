@@ -49,7 +49,5 @@ else {
 
 - Double click on ``%APPDATA%\micmute.ahk`` after logged in to Windows to start Autohotkey
 - Press ``CTRL - F3`` to mute/unmute the microphone
-- The script will switch Windows to "Dark" theme to when the microphone is unmuted and switches back to "Light" mode when it's muted to have visual feedback
-
-
+- The script will switch Windows to **"Dark"** theme to when the microphone is **muted** and switches back to **"Light"** mode when it's **unmuted** to have visual feedback
 
