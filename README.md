@@ -31,8 +31,6 @@ Set-Location "$($profile | Split-Path)\Modules\AudioDeviceCmdlets"
 Get-ChildItem | Unblock-File
 Import-Module AudioDeviceCmdlets
 
-#$wshell = New-Object -ComObject Wscript.Shell
-
 $ismuted = Get-AudioDevice -RecordingMute
 
 if ($ismuted) {
@@ -49,5 +47,5 @@ else {
 
 - Double click on ``%APPDATA%\micmute.ahk`` after logged in to Windows to start Autohotkey
 - Press ``CTRL - F3`` to mute/unmute the microphone
-- The script will switch Windows to **"Dark"** theme to when the microphone is **muted** and switches back to **"Light"** mode when it's **unmuted** to have visual feedback
+- The script will switch Windows to **"Dark"** theme when the microphone is **muted** and switches back to **"Light"** mode when it's **unmuted** to have visual feedback
 
